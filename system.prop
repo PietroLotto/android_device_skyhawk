@@ -1,7 +1,0 @@
-ro.hardware=samsungexynos7870
-ro.arch=exynos7870
-ro.chipname=exynos7870
-ro.product.brand=samsung
-ro.product.name=device
-ro.product.device=device
-ro.build.product=device

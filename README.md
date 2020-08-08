@@ -1,1 +1,0 @@
-# device_samsung_skyhawk
