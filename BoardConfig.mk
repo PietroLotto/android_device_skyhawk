@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/j7y17lte
+DEVICE_PATH := device/samsung/device
 
 # Architecture
 TARGET_ARCH := arm64
@@ -40,7 +40,7 @@ TARGET_NO_RADIOIMAGE := true
 # Kernel
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_CONFIG := exynos7870-j7y17lte_defconfig
+TARGET_KERNEL_CONFIG := exynos7870-device_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/exynos7870
 
 # Extracted with libbootimg
@@ -83,24 +83,3 @@ LZMA_RAMDISK_TARGETS := recovery
 
 # Include
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/dtbhtool/include
-
-#shrp flags
-SHRP_PATH := device/samsung/j7y17lte
-SHRP_MAINTAINER := Marchetto94
-SHRP_DEVICE_CODE := j7y17lte
-SHRP_OFFICIAL := true
-SHRP_EXTERNAL := /external_sd
-SHRP_INTERNAL := /sdcard
-SHRP_OTG := /usb_otg
-SHRP_AB := false
-SHRP_FLASH := 1
-SHRP_CUSTOM_FLASHLIGHT := true
-SHRP_FONP_1 := /sys/devices/virtual/camera/flash/rear_flash
-SHRP_FONP_2 := 
-SHRP_FONP_3 := 
-SHRP_FLASH_MAX_BRIGHTNESS := 1
-SHRP_REC := /dev/block/platform/13540000.dwmmc0/by-name/RECOVERY
-SHRP_REC_TYPE := normal
-SHRP_DEVICE_TYPE := A_Only
-SHRP_EXPRESS := true
-SHRP_OFFICIAL := true
