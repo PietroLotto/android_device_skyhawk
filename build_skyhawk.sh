@@ -23,6 +23,6 @@
 
 . build/envsetup.sh 
 
-lunch omni_j7velte-eng 
+lunch omni_j7xelte-eng 
 
 mka recoveryimage
