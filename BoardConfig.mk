@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/device
+DEVICE_PATH := device/samsung/j5y17lte
 
 # Architecture
 TARGET_ARCH := arm64
@@ -40,7 +40,7 @@ TARGET_NO_RADIOIMAGE := true
 # Kernel
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_CONFIG := exynos7870-device_defconfig
+TARGET_KERNEL_CONFIG := exynos7870-j5y17lte_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/exynos7870
 
 # Extracted with libbootimg

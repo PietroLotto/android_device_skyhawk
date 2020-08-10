@@ -1,1 +1,1 @@
-# device_samsung_skyhawk
+# device_samsung_j5y17lte

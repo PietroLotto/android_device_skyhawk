@@ -1,8 +1,8 @@
     #shrp flags
     export ALLOW_MISSING_DEPENDENCIES=true
-    export SHRP_PATH := device/samsung/j7y17lte
+    export SHRP_PATH := device/samsung/j5y17lte
     export SHRP_MAINTAINER := Marchetto94
-    export SHRP_DEVICE_CODE := j7y17lte
+    export SHRP_DEVICE_CODE := j5y17lte
     export SHRP_OFFICIAL := true
     export SHRP_EXTERNAL := /external_sd
     export SHRP_INTERNAL := /sdcard
@@ -23,6 +23,6 @@
 
 . build/envsetup.sh 
 
-lunch omni_device-eng 
+lunch omni_j5y17lte-eng 
 
 mka recoveryimage

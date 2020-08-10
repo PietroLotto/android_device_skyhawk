@@ -6,7 +6,7 @@ permitted provided that the following conditions are met:
 
 Redistributions in source form must retain the above copyright
 notice, this list of conditions and the following disclaimer as the
-first lines of this file unmodified.
+first lines of this file unmodified
 
 Redistributions in compiled form (transformed to other DTDs,
 converted to PDF, PostScript, RTF and other formats) must reproduce
