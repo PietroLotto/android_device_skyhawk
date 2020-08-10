@@ -1,1 +1,1 @@
-# device_samsung_j5y17lte
+# device_samsung_j7y17lte
