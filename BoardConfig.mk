@@ -83,3 +83,25 @@ LZMA_RAMDISK_TARGETS := recovery
 
 # Include
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/dtbhtool/include
+
+#shrp flags
+SHRP_PATH := device/samsung/j7xelte
+SHRP_DEVICE_CODE := j7xelte
+SHRP_MAINTAINER := Marchetto94
+SHRP_EDL_MODE=0
+SHRP_EXTERNAL="/sdcard1"
+SHRP_INTERNAL="/storage"
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_CUSTOM_FLASHLIGHT := true
+SHRP_FONP_1 := /sys/devices/virtual/camera/flash/rear_flash
+SHRP_FLASH_MAX_BRIGHTNESS := 255
+SHRP_REC := /dev/block/platform/13540000.dwmmc0/by-name/RECOVERY
+SHRP_AB := false
+SHRP_REC_TYPE := normal
+SHRP_DEVICE_TYPE := A_Only
+SHRP_STATUSBAR_RIGHT_PADDING=40
+SHRP_STATUSBAR_LEFT_PADDING=40
+SHRP_EXPRESS := true
+SHRP_OFFICIAL := true
+LZMA_RAMDISK_TARGETS="recovery"
