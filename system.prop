@@ -1,11 +1,7 @@
 ro.hardware=samsungexynos7870
 ro.arch=exynos7870
 ro.chipname=exynos7870
-ro.lcd_min_brightness=0
-ro.lcd_brightness=150
-ro.sf.lcd_density=320
 ro.product.brand=samsung
-ro.product.name=j7y17lte
-ro.product.device=j7y17lte
-ro.build.product=j7y17lte
-persist.sys.usb.config=mtp,adb
+ro.product.name=on7xelte
+ro.product.device=on7xelte
+ro.build.product=on7xelte
