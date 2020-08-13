@@ -156,7 +156,7 @@ subsystem sound
 # media1 is used for DECON Ext WB
 /dev/media1               0660   system     graphics
 # Various devices use the v4l-subdev interface
-# We declare all such nodes simultaneously here.
+# We declare all such nodes simultaneously here
 /dev/v4l-subdev0          0660   system     camera
 /dev/v4l-subdev1          0660   system     camera
 /dev/v4l-subdev2          0660   system     camera
