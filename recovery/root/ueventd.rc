@@ -284,7 +284,7 @@ subsystem sound
 /sys/devices/system/cpu/cpu*   cpufreq/interactive/boostpulse_duration         0660    system  system
 /sys/devices/system/cpu/cpu*   cpufreq/interactive/io_is_busy                  0660    system  system
 
-# Sensor.
+# Sensor
 /dev/input/event* 0660 system input
 /sys/devices/virtual/input/input*   enable      0660  system   input
 /sys/devices/virtual/input/input*   poll_delay  0660  system   input
