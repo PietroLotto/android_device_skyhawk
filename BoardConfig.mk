@@ -87,7 +87,7 @@ TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/dtbhtool/include
 #shrp flags
 SHRP_PATH := device/samsung/j7y17lte
 SHRP_DEVICE_CODE := j7y17lte
-SHRP_MAINTAINER := Marchetto94
+SHRP_MAINTAINER := Pietro Lotto
 SHRP_EDL_MODE=0
 SHRP_EXTERNAL="/sdcard1"
 SHRP_INTERNAL="/storage"
