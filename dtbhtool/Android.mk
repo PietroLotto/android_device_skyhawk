@@ -31,7 +31,7 @@ LOCAL_MODULE := dtbhtoolExynos
 
 include $(BUILD_HOST_EXECUTABLE)
 
-# Target static library
+#Target static library
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES := dtbimg.c
 LOCAL_STATIC_LIBRARIES := libfdt
